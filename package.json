@@ -1,14 +1,14 @@
 {
-  "name": "bscgraph",
+  "name": "bsc-graph",
   "version": "0.1.0",
   "license": "LGPL-v3",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ bitbd83/bscgraph",
-    "create-local": "graph create --node http://localhost:8020/ bitbd83/bscgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ bitbd83/bscgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 bitbd83/bscgraph"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ greenteaismyjam/bsc-graph",
+    "create-local": "graph create --node http://localhost:8020/ greenteaismyjam/bsc-graph",
+    "remove-local": "graph remove --node http://localhost:8020/ greenteaismyjam/bsc-graph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 greenteaismyjam/bsc-graph"
     
   },
   "dependencies": {
